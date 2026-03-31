@@ -1,7 +1,12 @@
-export default function LogoComp(){
+import { NavLink } from "react-router-dom"
+import { PiPictureInPicture } from "react-icons/pi"
+
+export default function LogoComp() {
     return (
         <>
-            <div className="">LOGO COMP</div>
+            <NavLink to="/">
+                <PiPictureInPicture className="size-5 scale-200" />
+            </NavLink>
         </>
     )
 }

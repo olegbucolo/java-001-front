@@ -1,23 +1,25 @@
-export const nav = [
+import type { NavItem } from './nav.types';
+
+export const navData: NavItem[] = [
     {
         id: 'home',
         label: 'Home',
         type: 'link',
-        href: 'http://www.google.com',
+        href: '/',
 
     },
     {
         id: 'shop',
         label: 'Shop',
         type: 'link',
-        href: 'http://www.google.com',
+        href: '/shop',
 
     },
     {
         id: 'about',
         label: 'About',
         type: 'link',
-        href: 'http://www.google.com',
+        href: '/about',
 
     },
     {
@@ -29,25 +31,25 @@ export const nav = [
                 id: 'tech',
                 label: 'Tech',
                 description: 'tech stuff description',
-                href: '/'
+                href: '/shop'
             },
             {
                 id: 'moda',
                 label: 'Moda',
                 description: 'moda stuff description',
-                href: '/'
+                href: '/shop'
             },
             {
                 id: 'gadgets',
                 label: 'Gadgets',
                 description: 'gadgets stuff description',
-                href: '/'
+                href: '/shop'
             },
             {
                 id: 'clothes',
                 label: 'Clothes',
                 description: 'clothes stuff description',
-                href: '/'
+                href: '/shop'
             },
         ]
 
@@ -61,25 +63,25 @@ export const nav = [
                 id: 'logistics-and-distribution',
                 label: 'Logistics & Distribution',
                 description: 'Logistics & Distribution description',
-                href: '/'
+                href: '/jobs'
             },
             {
                 id: 'frontend-developer',
                 label: 'Frontend Developer',
                 description: 'Frontend Dev description',
-                href: '/'
+                href: '/jobs'
             },
             {
                 id: 'backend-developer',
                 label: 'Backend Developer',
                 description: 'Backend Dev description',
-                href: '/'
+                href: '/jobs'
             },
             {
                 id: 'hr',
                 label: 'HR',
                 description: 'HR description',
-                href: '/'
+                href: '/jobs'
             },
         ]
 

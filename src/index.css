@@ -3,3 +3,7 @@
 .root {
     isolation: isolate;
 }
+
+body{
+    background-color: black;
+}
