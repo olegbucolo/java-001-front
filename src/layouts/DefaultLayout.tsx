@@ -4,10 +4,12 @@ import FooterComp from '../components/footer/FooterComp';
 
 export default function DefaultLayout() {
     return (
-        <>
+        <div className="page max-w-300 mx-auto">
             <HeaderComp />
-            <Outlet />
-            <FooterComp/>
-        </>
+            <main>
+                <Outlet />
+            </main>
+            <FooterComp />
+        </div>
     )
 }

@@ -1,9 +1,13 @@
-export default function HeaderComp(){
+import LogoComp from "./LogoComp"
+import NavComp from "./NavComp"
+import LoginComp from "./LoginComp"
+
+export default function HeaderComp() {
     return (
-        <>
-            <div>
-                <h1>HEADER COMPONENT</h1>
-            </div>
-        </>
+        <header className="bg-neutral-900 text-neutral-200 flex justify-between p-5 ">
+            <LogoComp />
+            <NavComp />
+            <LoginComp />
+        </header>
     )
 }
